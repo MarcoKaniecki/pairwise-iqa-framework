@@ -21,6 +21,6 @@ This plot shows the predicted quality in JNDfor a series of images:
 - **Black X's**: Other ground truth measurements.
 - The **gray line** connects the hallucinated images, visualizing the hallucination "path" in the quality space.
 
-SSIM values for ground truth and predictions may be slightly different, likely due to small discrepancies in calculation methods or library versions.
+SSIM value for ground truth and calculation of distorted input image may be slightly different, likely due to small discrepancies in calculation methods or library versions.
 
 The method works well because the predicted and true values are close for most of the images. There is a noticeable fall-off at the end of the path, but this could be due to the fact that we are only using a single metric (SSIM) for the prediction. Due to limited time, we focused on demonstrating that the approach works for at least one metric.
