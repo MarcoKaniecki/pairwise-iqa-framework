@@ -1,5 +1,5 @@
 # pairwise-iqa-framework
-_Last updated: 2025-09-01_
+_Last updated: 01.09.2025_
 ### Credit
 The full dataset of 26 features was created by Shima Mohammadi. The full dataset in not included, however the reduced one is which was only modified slightly. The bitrate for the reference images wasn't calculated, therefore arbitrary values were set.
 
